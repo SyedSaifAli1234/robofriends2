@@ -1,22 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import './index.css';
-import Card from './Card';
 import 'tachyons';
-import {robots} from "./robots";
-import reportWebVitals from './reportWebVitals';
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <Card name={robots[0].name} age={robots[0].age}/>
-      <Card name={robots[1].name} age={robots[1].age}/>
-      <Card name={robots[2].name} age={robots[2].age}/>
-      <Card name={robots[3].name} age={robots[3].age}/>
+      <App/>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

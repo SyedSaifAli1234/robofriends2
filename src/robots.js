@@ -14,5 +14,21 @@ export const robots = [
     {
         name : "Agha",
         age : 25
+    },
+    {
+        name : "Sameen",
+        age : 24
+    },
+    {
+        name : "Choti",
+        age : 25
+    },
+    {
+        name : "Kissa",
+        age : 25
+    },
+    {
+        name : "Chuchi",
+        age : 25
     }
 ]
